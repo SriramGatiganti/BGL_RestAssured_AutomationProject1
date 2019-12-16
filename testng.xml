@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Suite">
+  <test thread-count="1" name="Test">
+    <classes>
+      <class name="com.managebgl.qa.testcases.TC001_Login_User"/>
+      <class name="com.managebgl.qa.testcases.TC002_AddNewLog"/>
+      <class name="com.managebgl.qa.testcases.TC003_UpdateLog"/>
+      <class name="com.managebgl.qa.testcases.TC004_DeleteLog"/> 
+      <class name="com.managebgl.qa.testcases.TC005_Logout_User"/>     
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

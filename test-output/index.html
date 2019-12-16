@@ -1,0 +1,516 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Suite" class="navigator-link">
+              <span class="suite-name border-failed">Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Suite" class="navigator-link ">
+                    <span>E:\Softwares\SeleniumProjects\LendicoRestAssuredBDD\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Suite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Suite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">9 methods, 1 failed,   8 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods failed suite-Suite"> (hide)</a> <!-- hide-methods failed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods failed suite-Suite"> (show)</a> <!-- show-methods failed suite-Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Suite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.managebgl.qa.testcases.TC003_UpdateLog" class="method navigator-link" hash-for-method="VerifySucessResponseOnValidEntry(https://www.PredictBGL.com/api/1.0, sriram.gatiganti@gmail.com, 12345678, 30978-e9aed3edf8c46d00d825...)">VerifySucessResponseOnValidEntry(https://www.PredictBGL.com/api/1.0, sriram.gatiganti@gmail.com, 12345678, 30978-e9aed3edf8c46d00d825...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods passed suite-Suite"> (hide)</a> <!-- hide-methods passed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods passed suite-Suite"> (show)</a> <!-- show-methods passed suite-Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.managebgl.qa.testcases.TC004_DeleteLog" class="method navigator-link" hash-for-method="VerifyFailureResponseOnDeleteLog(https://www.PredictBGL.com/api/1.0, sriram.gatiganti@gmail.com, 12345678, 30978-e9aed3edf8c46d00d825...)">VerifyFailureResponseOnDeleteLog(https://www.PredictBGL.com/api/1.0, sriram.gatiganti@gmail.com, 12345678, 30978-e9aed3edf8c46d00d825...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.managebgl.qa.testcases.TC001_Login_User" class="method navigator-link" hash-for-method="VerifyFailureResponseOnInvalidEmail(https://www.PredictBGL.com/api/1.0, sriram.gatiganti@gmail.com, 12345678, 30978-e9aed3edf8c46d00d825...)">VerifyFailureResponseOnInvalidEmail(https://www.PredictBGL.com/api/1.0, sriram.gatiganti@gmail.com, 12345678, 30978-e9aed3edf8c46d00d825...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.managebgl.qa.testcases.TC002_AddNewLog" class="method navigator-link" hash-for-method="VerifyFailureResponseOnInvalidEntry(https://www.PredictBGL.com/api/1.0, sriram.gatiganti@gmail.com, 12345678, 30978-e9aed3edf8c46d00d825...)">VerifyFailureResponseOnInvalidEntry(https://www.PredictBGL.com/api/1.0, sriram.gatiganti@gmail.com, 12345678, 30978-e9aed3edf8c46d00d825...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.managebgl.qa.testcases.TC003_UpdateLog" class="method navigator-link" hash-for-method="VerifyFailureResponseOnInvalidEntry(https://www.PredictBGL.com/api/1.0, sriram.gatiganti@gmail.com, 12345678, 30978-e9aed3edf8c46d00d825...)">VerifyFailureResponseOnInvalidEntry(https://www.PredictBGL.com/api/1.0, sriram.gatiganti@gmail.com, 12345678, 30978-e9aed3edf8c46d00d825...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.managebgl.qa.testcases.TC004_DeleteLog" class="method navigator-link" hash-for-method="VerifySucessResponseOnDeleteLog(https://www.PredictBGL.com/api/1.0, sriram.gatiganti@gmail.com, 12345678, 30978-e9aed3edf8c46d00d825...)">VerifySucessResponseOnDeleteLog(https://www.PredictBGL.com/api/1.0, sriram.gatiganti@gmail.com, 12345678, 30978-e9aed3edf8c46d00d825...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.managebgl.qa.testcases.TC002_AddNewLog" class="method navigator-link" hash-for-method="VerifySucessResponseOnValidEntry(https://www.PredictBGL.com/api/1.0, sriram.gatiganti@gmail.com, 12345678, 30978-e9aed3edf8c46d00d825...)">VerifySucessResponseOnValidEntry(https://www.PredictBGL.com/api/1.0, sriram.gatiganti@gmail.com, 12345678, 30978-e9aed3edf8c46d00d825...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.managebgl.qa.testcases.TC001_Login_User" class="method navigator-link" hash-for-method="VerifySucessResponseOnValidLogin(https://www.PredictBGL.com/api/1.0, sriram.gatiganti@gmail.com, 12345678, 30978-e9aed3edf8c46d00d825...)">VerifySucessResponseOnValidLogin(https://www.PredictBGL.com/api/1.0, sriram.gatiganti@gmail.com, 12345678, 30978-e9aed3edf8c46d00d825...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.managebgl.qa.testcases.TC005_Logout_User" class="method navigator-link" hash-for-method="VerifySucessResponseOnValidLogout(https://www.PredictBGL.com/api/1.0, sriram.gatiganti@gmail.com, 12345678, 30978-e9aed3edf8c46d00d825...)">VerifySucessResponseOnValidLogout(https://www.PredictBGL.com/api/1.0, sriram.gatiganti@gmail.com, 12345678, 30978-e9aed3edf8c46d00d825...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Suite" class="panel Suite">
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.managebgl.qa.testcases.TC003_UpdateLog</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifySucessResponseOnValidEntry(https://www.PredictBGL.com/api/1.0, sriram.gatiganti@gmail.com, 12345678, 30978-e9aed3edf8c46d00d825...)">
+                  </a> <!-- VerifySucessResponseOnValidEntry(https://www.PredictBGL.com/api/1.0, sriram.gatiganti@gmail.com, 12345678, 30978-e9aed3edf8c46d00d825...) -->
+                  <span class="method-name">VerifySucessResponseOnValidEntry</span>
+                  <span class="parameters">(https://www.PredictBGL.com/api/1.0, sriram.gatiganti@gmail.com, 12345678, 30978-e9aed3edf8c46d00d8253778f8a21922, 4457620100, 12.2, Ok, Unknown email. Please signup for an account, Incorrect password, 3 attempts are left before your account is disabled., BGL must be in range 1 to 59 mmol, 'Lo' or 'Hi' (not 200), log_id blank, Missing log_id, application/json, HTTP/1.1 200 OK, Logout Ok)</span>
+                  <div class="stack-trace">java.lang.AssertionError: 1 expectation failed.
+JSON path result doesn&apos;t match.
+Expected: &lt;true&gt;
+  Actual: false
+
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:84)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallConstructor(CallSiteArray.java:59)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:237)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:249)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:493)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:671)
+	at org.codehaus.groovy.runtime.callsite.PlainObjectMetaMethodSite.doInvoke(PlainObjectMetaMethodSite.java:43)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:190)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:58)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:168)
+	at io.restassured.internal.ResponseSpecificationImpl.body(ResponseSpecificationImpl.groovy:261)
+	at io.restassured.specification.ResponseSpecification$body$2.callCurrent(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.body(ResponseSpecificationImpl.groovy:108)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.body(ValidatableResponseOptionsImpl.java:244)
+	at io.restassured.internal.ValidatableResponseImpl.super$2$body(ValidatableResponseImpl.groovy)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:323)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1217)
+	at org.codehaus.groovy.runtime.ScriptBytecodeAdapter.invokeMethodOnSuperN(ScriptBytecodeAdapter.java:144)
+	at io.restassured.internal.ValidatableResponseImpl.body(ValidatableResponseImpl.groovy:298)
+	at io.restassured.internal.ValidatableResponseImpl.body(ValidatableResponseImpl.groovy)
+	at com.managebgl.qa.testcases.TC003_UpdateLog.VerifySucessResponseOnValidEntry(TC003_UpdateLog.java:55)
+... Removed 41 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.managebgl.qa.testcases.TC003_UpdateLog</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyFailureResponseOnInvalidEntry(https://www.PredictBGL.com/api/1.0, sriram.gatiganti@gmail.com, 12345678, 30978-e9aed3edf8c46d00d825...)">
+                  </a> <!-- VerifyFailureResponseOnInvalidEntry(https://www.PredictBGL.com/api/1.0, sriram.gatiganti@gmail.com, 12345678, 30978-e9aed3edf8c46d00d825...) -->
+                  <span class="method-name">VerifyFailureResponseOnInvalidEntry</span>
+                  <span class="parameters">(https://www.PredictBGL.com/api/1.0, sriram.gatiganti@gmail.com, 12345678, 30978-e9aed3edf8c46d00d8253778f8a21922, 4457620100, 12.2, Ok, Unknown email. Please signup for an account, Incorrect password, 3 attempts are left before your account is disabled., BGL must be in range 1 to 59 mmol, 'Lo' or 'Hi' (not 200), log_id blank, Missing log_id, application/json, HTTP/1.1 200 OK, Logout Ok)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.managebgl.qa.testcases.TC005_Logout_User</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifySucessResponseOnValidLogout(https://www.PredictBGL.com/api/1.0, sriram.gatiganti@gmail.com, 12345678, 30978-e9aed3edf8c46d00d825...)">
+                  </a> <!-- VerifySucessResponseOnValidLogout(https://www.PredictBGL.com/api/1.0, sriram.gatiganti@gmail.com, 12345678, 30978-e9aed3edf8c46d00d825...) -->
+                  <span class="method-name">VerifySucessResponseOnValidLogout</span>
+                  <span class="parameters">(https://www.PredictBGL.com/api/1.0, sriram.gatiganti@gmail.com, 12345678, 30978-e9aed3edf8c46d00d8253778f8a21922, 4457620100, 12.2, Ok, Unknown email. Please signup for an account, Incorrect password, 3 attempts are left before your account is disabled., BGL must be in range 1 to 59 mmol, 'Lo' or 'Hi' (not 200), log_id blank, Missing log_id, application/json, HTTP/1.1 200 OK, Logout Ok)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.managebgl.qa.testcases.TC002_AddNewLog</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyFailureResponseOnInvalidEntry(https://www.PredictBGL.com/api/1.0, sriram.gatiganti@gmail.com, 12345678, 30978-e9aed3edf8c46d00d825...)">
+                  </a> <!-- VerifyFailureResponseOnInvalidEntry(https://www.PredictBGL.com/api/1.0, sriram.gatiganti@gmail.com, 12345678, 30978-e9aed3edf8c46d00d825...) -->
+                  <span class="method-name">VerifyFailureResponseOnInvalidEntry</span>
+                  <span class="parameters">(https://www.PredictBGL.com/api/1.0, sriram.gatiganti@gmail.com, 12345678, 30978-e9aed3edf8c46d00d8253778f8a21922, 4457620100, 12.2, Ok, Unknown email. Please signup for an account, Incorrect password, 3 attempts are left before your account is disabled., BGL must be in range 1 to 59 mmol, 'Lo' or 'Hi' (not 200), log_id blank, Missing log_id, application/json, HTTP/1.1 200 OK, Logout Ok)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifySucessResponseOnValidEntry(https://www.PredictBGL.com/api/1.0, sriram.gatiganti@gmail.com, 12345678, 30978-e9aed3edf8c46d00d825...)">
+                  </a> <!-- VerifySucessResponseOnValidEntry(https://www.PredictBGL.com/api/1.0, sriram.gatiganti@gmail.com, 12345678, 30978-e9aed3edf8c46d00d825...) -->
+                  <span class="method-name">VerifySucessResponseOnValidEntry</span>
+                  <span class="parameters">(https://www.PredictBGL.com/api/1.0, sriram.gatiganti@gmail.com, 12345678, 30978-e9aed3edf8c46d00d8253778f8a21922, 4457620100, 12.2, Ok, Unknown email. Please signup for an account, Incorrect password, 3 attempts are left before your account is disabled., BGL must be in range 1 to 59 mmol, 'Lo' or 'Hi' (not 200), log_id blank, Missing log_id, application/json, HTTP/1.1 200 OK, Logout Ok)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.managebgl.qa.testcases.TC001_Login_User</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyFailureResponseOnInvalidEmail(https://www.PredictBGL.com/api/1.0, sriram.gatiganti@gmail.com, 12345678, 30978-e9aed3edf8c46d00d825...)">
+                  </a> <!-- VerifyFailureResponseOnInvalidEmail(https://www.PredictBGL.com/api/1.0, sriram.gatiganti@gmail.com, 12345678, 30978-e9aed3edf8c46d00d825...) -->
+                  <span class="method-name">VerifyFailureResponseOnInvalidEmail</span>
+                  <span class="parameters">(https://www.PredictBGL.com/api/1.0, sriram.gatiganti@gmail.com, 12345678, 30978-e9aed3edf8c46d00d8253778f8a21922, 4457620100, 12.2, Ok, Unknown email. Please signup for an account, Incorrect password, 3 attempts are left before your account is disabled., BGL must be in range 1 to 59 mmol, 'Lo' or 'Hi' (not 200), log_id blank, Missing log_id, application/json, HTTP/1.1 200 OK, Logout Ok)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifySucessResponseOnValidLogin(https://www.PredictBGL.com/api/1.0, sriram.gatiganti@gmail.com, 12345678, 30978-e9aed3edf8c46d00d825...)">
+                  </a> <!-- VerifySucessResponseOnValidLogin(https://www.PredictBGL.com/api/1.0, sriram.gatiganti@gmail.com, 12345678, 30978-e9aed3edf8c46d00d825...) -->
+                  <span class="method-name">VerifySucessResponseOnValidLogin</span>
+                  <span class="parameters">(https://www.PredictBGL.com/api/1.0, sriram.gatiganti@gmail.com, 12345678, 30978-e9aed3edf8c46d00d8253778f8a21922, 4457620100, 12.2, Ok, Unknown email. Please signup for an account, Incorrect password, 3 attempts are left before your account is disabled., BGL must be in range 1 to 59 mmol, 'Lo' or 'Hi' (not 200), log_id blank, Missing log_id, application/json, HTTP/1.1 200 OK, Logout Ok)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.managebgl.qa.testcases.TC004_DeleteLog</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyFailureResponseOnDeleteLog(https://www.PredictBGL.com/api/1.0, sriram.gatiganti@gmail.com, 12345678, 30978-e9aed3edf8c46d00d825...)">
+                  </a> <!-- VerifyFailureResponseOnDeleteLog(https://www.PredictBGL.com/api/1.0, sriram.gatiganti@gmail.com, 12345678, 30978-e9aed3edf8c46d00d825...) -->
+                  <span class="method-name">VerifyFailureResponseOnDeleteLog</span>
+                  <span class="parameters">(https://www.PredictBGL.com/api/1.0, sriram.gatiganti@gmail.com, 12345678, 30978-e9aed3edf8c46d00d8253778f8a21922, 4457620100, 12.2, Ok, Unknown email. Please signup for an account, Incorrect password, 3 attempts are left before your account is disabled., BGL must be in range 1 to 59 mmol, 'Lo' or 'Hi' (not 200), log_id blank, Missing log_id, application/json, HTTP/1.1 200 OK, Logout Ok)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifySucessResponseOnDeleteLog(https://www.PredictBGL.com/api/1.0, sriram.gatiganti@gmail.com, 12345678, 30978-e9aed3edf8c46d00d825...)">
+                  </a> <!-- VerifySucessResponseOnDeleteLog(https://www.PredictBGL.com/api/1.0, sriram.gatiganti@gmail.com, 12345678, 30978-e9aed3edf8c46d00d825...) -->
+                  <span class="method-name">VerifySucessResponseOnDeleteLog</span>
+                  <span class="parameters">(https://www.PredictBGL.com/api/1.0, sriram.gatiganti@gmail.com, 12345678, 30978-e9aed3edf8c46d00d8253778f8a21922, 4457620100, 12.2, Ok, Unknown email. Please signup for an account, Incorrect password, 3 attempts are left before your account is disabled., BGL must be in range 1 to 59 mmol, 'Lo' or 'Hi' (not 200), log_id blank, Missing log_id, application/json, HTTP/1.1 200 OK, Logout Ok)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+        </div> <!-- panel Suite -->
+        <div panel-name="test-xml-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">E:\Softwares\SeleniumProjects\LendicoRestAssuredBDD\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;test thread-count=&quot;1&quot; name=&quot;Test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.managebgl.qa.testcases.TC001_Login_User&quot;/&gt;
+      &lt;class name=&quot;com.managebgl.qa.testcases.TC002_AddNewLog&quot;/&gt;
+      &lt;class name=&quot;com.managebgl.qa.testcases.TC003_UpdateLog&quot;/&gt;
+      &lt;class name=&quot;com.managebgl.qa.testcases.TC004_DeleteLog&quot;/&gt;
+      &lt;class name=&quot;com.managebgl.qa.testcases.TC005_Logout_User&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Test --&gt;
+&lt;/suite&gt; &lt;!-- Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Test (5 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Suite');
+function tableData_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(9);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'VerifySucessResponseOnValidLogin')
+data.setCell(0, 2, 'com.managebgl.qa.testcases.TC001_Login_User')
+data.setCell(0, 3, 4701);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'VerifyFailureResponseOnInvalidEntry')
+data.setCell(1, 2, 'com.managebgl.qa.testcases.TC002_AddNewLog')
+data.setCell(1, 3, 1046);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'VerifySucessResponseOnValidEntry')
+data.setCell(2, 2, 'com.managebgl.qa.testcases.TC002_AddNewLog')
+data.setCell(2, 3, 944);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'VerifySucessResponseOnDeleteLog')
+data.setCell(3, 2, 'com.managebgl.qa.testcases.TC004_DeleteLog')
+data.setCell(3, 3, 896);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'VerifyFailureResponseOnInvalidEmail')
+data.setCell(4, 2, 'com.managebgl.qa.testcases.TC001_Login_User')
+data.setCell(4, 3, 891);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'VerifySucessResponseOnValidEntry')
+data.setCell(5, 2, 'com.managebgl.qa.testcases.TC003_UpdateLog')
+data.setCell(5, 3, 878);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'VerifySucessResponseOnValidLogout')
+data.setCell(6, 2, 'com.managebgl.qa.testcases.TC005_Logout_User')
+data.setCell(6, 3, 847);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'VerifyFailureResponseOnDeleteLog')
+data.setCell(7, 2, 'com.managebgl.qa.testcases.TC004_DeleteLog')
+data.setCell(7, 3, 843);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'VerifyFailureResponseOnInvalidEntry')
+data.setCell(8, 2, 'com.managebgl.qa.testcases.TC003_UpdateLog')
+data.setCell(8, 3, 824);
+window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 11 seconds</span>
+              <div id="times-div-Suite">
+              </div> <!-- times-div-Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">1 ignored method</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.managebgl.qa.testcases.TC001_Login_User</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">VerifyFailureResponseOnInvalidPassoword</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.managebgl.qa.testcases.TC001_Login_User</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">VerifySucessResponseOnValidLogin(https://www.PredictBGL.com/api/1.0, sriram.gatiganti@gmail.com, 12345678, 30978-e9aed3edf8c46d00d825...)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.managebgl.qa.testcases.TC002_AddNewLog</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">VerifySucessResponseOnValidEntry(https://www.PredictBGL.com/api/1.0, sriram.gatiganti@gmail.com, 12345678, 30978-e9aed3edf8c46d00d825...)</span>
+                <span class="method-start">5515 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.managebgl.qa.testcases.TC003_UpdateLog</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">VerifySucessResponseOnValidEntry(https://www.PredictBGL.com/api/1.0, sriram.gatiganti@gmail.com, 12345678, 30978-e9aed3edf8c46d00d825...)</span>
+                <span class="method-start">7150 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.managebgl.qa.testcases.TC004_DeleteLog</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">VerifySucessResponseOnDeleteLog(https://www.PredictBGL.com/api/1.0, sriram.gatiganti@gmail.com, 12345678, 30978-e9aed3edf8c46d00d825...)</span>
+                <span class="method-start">8545 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.managebgl.qa.testcases.TC005_Logout_User</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">VerifySucessResponseOnValidLogout(https://www.PredictBGL.com/api/1.0, sriram.gatiganti@gmail.com, 12345678, 30978-e9aed3edf8c46d00d825...)</span>
+                <span class="method-start">9912 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.managebgl.qa.testcases.TC001_Login_User</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">VerifyFailureResponseOnInvalidEmail(https://www.PredictBGL.com/api/1.0, sriram.gatiganti@gmail.com, 12345678, 30978-e9aed3edf8c46d00d825...)</span>
+                <span class="method-start">11175 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.managebgl.qa.testcases.TC002_AddNewLog</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">VerifyFailureResponseOnInvalidEntry(https://www.PredictBGL.com/api/1.0, sriram.gatiganti@gmail.com, 12345678, 30978-e9aed3edf8c46d00d825...)</span>
+                <span class="method-start">12429 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.managebgl.qa.testcases.TC003_UpdateLog</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">VerifyFailureResponseOnInvalidEntry(https://www.PredictBGL.com/api/1.0, sriram.gatiganti@gmail.com, 12345678, 30978-e9aed3edf8c46d00d825...)</span>
+                <span class="method-start">13865 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.managebgl.qa.testcases.TC004_DeleteLog</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">VerifyFailureResponseOnDeleteLog(https://www.PredictBGL.com/api/1.0, sriram.gatiganti@gmail.com, 12345678, 30978-e9aed3edf8c46d00d825...)</span>
+                <span class="method-start">15069 ms</span>
+              </div> <!-- test-method -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

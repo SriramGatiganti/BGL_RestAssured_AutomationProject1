@@ -1,0 +1,830 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="1" total="10" passed="8" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2019-12-16T10:19:40Z" name="Suite" finished-at="2019-12-16T10:19:58Z" duration-ms="18129">
+    <groups>
+    </groups>
+    <test started-at="2019-12-16T10:19:40Z" name="Test" finished-at="2019-12-16T10:19:58Z" duration-ms="18129">
+      <class name="com.managebgl.qa.testcases.TC005_Logout_User">
+        <test-method signature="VerifySucessResponseOnValidLogout(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.managebgl.qa.testcases.TC005_Logout_User@13c10b87]" started-at="2019-12-16T10:19:52Z" name="VerifySucessResponseOnValidLogout" data-provider="Data" finished-at="2019-12-16T10:19:53Z" duration-ms="847" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.PredictBGL.com/api/1.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[sriram.gatiganti@gmail.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[12345678]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[30978-e9aed3edf8c46d00d8253778f8a21922]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[4457620100]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[12.2]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Ok]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Unknown email. Please signup for an account]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Incorrect password, 3 attempts are left before your account is disabled.]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[BGL must be in range 1 to 59 mmol, 'Lo' or 'Hi' (not 200)]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[log_id blank]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[Missing log_id]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[application/json]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[HTTP/1.1 200 OK]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[Logout Ok]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifySucessResponseOnValidLogout -->
+      </class> <!-- com.managebgl.qa.testcases.TC005_Logout_User -->
+      <class name="com.managebgl.qa.testcases.TC001_Login_User">
+        <test-method signature="VerifySucessResponseOnValidLogin(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.managebgl.qa.testcases.TC001_Login_User@402e37bc]" started-at="2019-12-16T10:19:43Z" name="VerifySucessResponseOnValidLogin" data-provider="Data" finished-at="2019-12-16T10:19:47Z" duration-ms="4701" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.PredictBGL.com/api/1.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[sriram.gatiganti@gmail.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[12345678]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[30978-e9aed3edf8c46d00d8253778f8a21922]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[4457620100]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[12.2]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Ok]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Unknown email. Please signup for an account]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Incorrect password, 3 attempts are left before your account is disabled.]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[BGL must be in range 1 to 59 mmol, 'Lo' or 'Hi' (not 200)]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[log_id blank]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[Missing log_id]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[application/json]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[HTTP/1.1 200 OK]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[Logout Ok]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifySucessResponseOnValidLogin -->
+        <test-method signature="VerifyFailureResponseOnInvalidEmail(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.managebgl.qa.testcases.TC001_Login_User@402e37bc]" started-at="2019-12-16T10:19:54Z" name="VerifyFailureResponseOnInvalidEmail" data-provider="Data" finished-at="2019-12-16T10:19:55Z" duration-ms="891" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.PredictBGL.com/api/1.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[sriram.gatiganti@gmail.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[12345678]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[30978-e9aed3edf8c46d00d8253778f8a21922]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[4457620100]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[12.2]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Ok]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Unknown email. Please signup for an account]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Incorrect password, 3 attempts are left before your account is disabled.]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[BGL must be in range 1 to 59 mmol, 'Lo' or 'Hi' (not 200)]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[log_id blank]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[Missing log_id]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[application/json]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[HTTP/1.1 200 OK]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[Logout Ok]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyFailureResponseOnInvalidEmail -->
+      </class> <!-- com.managebgl.qa.testcases.TC001_Login_User -->
+      <class name="com.managebgl.qa.testcases.TC002_AddNewLog">
+        <test-method signature="VerifySucessResponseOnValidEntry(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.managebgl.qa.testcases.TC002_AddNewLog@79ad8b2f]" started-at="2019-12-16T10:19:48Z" name="VerifySucessResponseOnValidEntry" data-provider="Data" finished-at="2019-12-16T10:19:49Z" duration-ms="944" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.PredictBGL.com/api/1.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[sriram.gatiganti@gmail.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[12345678]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[30978-e9aed3edf8c46d00d8253778f8a21922]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[4457620100]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[12.2]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Ok]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Unknown email. Please signup for an account]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Incorrect password, 3 attempts are left before your account is disabled.]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[BGL must be in range 1 to 59 mmol, 'Lo' or 'Hi' (not 200)]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[log_id blank]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[Missing log_id]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[application/json]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[HTTP/1.1 200 OK]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[Logout Ok]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifySucessResponseOnValidEntry -->
+        <test-method signature="VerifyFailureResponseOnInvalidEntry(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.managebgl.qa.testcases.TC002_AddNewLog@79ad8b2f]" started-at="2019-12-16T10:19:55Z" name="VerifyFailureResponseOnInvalidEntry" data-provider="Data" finished-at="2019-12-16T10:19:56Z" duration-ms="1046" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.PredictBGL.com/api/1.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[sriram.gatiganti@gmail.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[12345678]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[30978-e9aed3edf8c46d00d8253778f8a21922]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[4457620100]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[12.2]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Ok]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Unknown email. Please signup for an account]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Incorrect password, 3 attempts are left before your account is disabled.]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[BGL must be in range 1 to 59 mmol, 'Lo' or 'Hi' (not 200)]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[log_id blank]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[Missing log_id]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[application/json]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[HTTP/1.1 200 OK]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[Logout Ok]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyFailureResponseOnInvalidEntry -->
+      </class> <!-- com.managebgl.qa.testcases.TC002_AddNewLog -->
+      <class name="com.managebgl.qa.testcases.TC003_UpdateLog">
+        <test-method signature="VerifySucessResponseOnValidEntry(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.managebgl.qa.testcases.TC003_UpdateLog@1df82230]" started-at="2019-12-16T10:19:50Z" name="VerifySucessResponseOnValidEntry" data-provider="Data" finished-at="2019-12-16T10:19:51Z" duration-ms="878" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.PredictBGL.com/api/1.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[sriram.gatiganti@gmail.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[12345678]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[30978-e9aed3edf8c46d00d8253778f8a21922]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[4457620100]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[12.2]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Ok]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Unknown email. Please signup for an account]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Incorrect password, 3 attempts are left before your account is disabled.]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[BGL must be in range 1 to 59 mmol, 'Lo' or 'Hi' (not 200)]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[log_id blank]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[Missing log_id]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[application/json]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[HTTP/1.1 200 OK]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[Logout Ok]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[1 expectation failed.
+JSON path result doesn't match.
+Expected: <true>
+  Actual: false
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: 1 expectation failed.
+JSON path result doesn't match.
+Expected: <true>
+  Actual: false
+
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:80)
+at org.codehaus.groovy.reflection.CachedConstructor.doConstructorInvoke(CachedConstructor.java:74)
+at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:84)
+at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallConstructor(CallSiteArray.java:59)
+at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:237)
+at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:249)
+at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:493)
+at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:671)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.codehaus.groovy.runtime.callsite.PlainObjectMetaMethodSite.doInvoke(PlainObjectMetaMethodSite.java:43)
+at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:190)
+at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:58)
+at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:168)
+at io.restassured.internal.ResponseSpecificationImpl.body(ResponseSpecificationImpl.groovy:261)
+at io.restassured.specification.ResponseSpecification$body$2.callCurrent(Unknown Source)
+at io.restassured.internal.ResponseSpecificationImpl.body(ResponseSpecificationImpl.groovy:108)
+at io.restassured.internal.ValidatableResponseOptionsImpl.body(ValidatableResponseOptionsImpl.java:244)
+at io.restassured.internal.ValidatableResponseImpl.super$2$body(ValidatableResponseImpl.groovy)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:101)
+at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:323)
+at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1217)
+at org.codehaus.groovy.runtime.ScriptBytecodeAdapter.invokeMethodOnSuperN(ScriptBytecodeAdapter.java:144)
+at io.restassured.internal.ValidatableResponseImpl.body(ValidatableResponseImpl.groovy:298)
+at io.restassured.internal.ValidatableResponseImpl.body(ValidatableResponseImpl.groovy)
+at com.managebgl.qa.testcases.TC003_UpdateLog.VerifySucessResponseOnValidEntry(TC003_UpdateLog.java:55)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifySucessResponseOnValidEntry -->
+        <test-method signature="VerifyFailureResponseOnInvalidEntry(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.managebgl.qa.testcases.TC003_UpdateLog@1df82230]" started-at="2019-12-16T10:19:56Z" name="VerifyFailureResponseOnInvalidEntry" data-provider="Data" finished-at="2019-12-16T10:19:57Z" duration-ms="824" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.PredictBGL.com/api/1.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[sriram.gatiganti@gmail.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[12345678]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[30978-e9aed3edf8c46d00d8253778f8a21922]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[4457620100]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[12.2]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Ok]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Unknown email. Please signup for an account]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Incorrect password, 3 attempts are left before your account is disabled.]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[BGL must be in range 1 to 59 mmol, 'Lo' or 'Hi' (not 200)]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[log_id blank]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[Missing log_id]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[application/json]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[HTTP/1.1 200 OK]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[Logout Ok]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyFailureResponseOnInvalidEntry -->
+      </class> <!-- com.managebgl.qa.testcases.TC003_UpdateLog -->
+      <class name="com.managebgl.qa.testcases.TC004_DeleteLog">
+        <test-method signature="VerifySucessResponseOnDeleteLog(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.managebgl.qa.testcases.TC004_DeleteLog@22635ba0]" started-at="2019-12-16T10:19:51Z" name="VerifySucessResponseOnDeleteLog" data-provider="Data" finished-at="2019-12-16T10:19:52Z" duration-ms="896" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.PredictBGL.com/api/1.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[sriram.gatiganti@gmail.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[12345678]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[30978-e9aed3edf8c46d00d8253778f8a21922]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[4457620100]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[12.2]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Ok]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Unknown email. Please signup for an account]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Incorrect password, 3 attempts are left before your account is disabled.]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[BGL must be in range 1 to 59 mmol, 'Lo' or 'Hi' (not 200)]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[log_id blank]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[Missing log_id]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[application/json]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[HTTP/1.1 200 OK]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[Logout Ok]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifySucessResponseOnDeleteLog -->
+        <test-method signature="VerifyFailureResponseOnDeleteLog(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.managebgl.qa.testcases.TC004_DeleteLog@22635ba0]" started-at="2019-12-16T10:19:58Z" name="VerifyFailureResponseOnDeleteLog" data-provider="Data" finished-at="2019-12-16T10:19:58Z" duration-ms="843" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.PredictBGL.com/api/1.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[sriram.gatiganti@gmail.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[12345678]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[30978-e9aed3edf8c46d00d8253778f8a21922]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[4457620100]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[12.2]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Ok]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Unknown email. Please signup for an account]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Incorrect password, 3 attempts are left before your account is disabled.]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[BGL must be in range 1 to 59 mmol, 'Lo' or 'Hi' (not 200)]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[log_id blank]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[Missing log_id]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[application/json]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[HTTP/1.1 200 OK]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[Logout Ok]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyFailureResponseOnDeleteLog -->
+      </class> <!-- com.managebgl.qa.testcases.TC004_DeleteLog -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
